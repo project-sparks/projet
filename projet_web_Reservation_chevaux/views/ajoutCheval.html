@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>CRUD</title>
+	
+</head>
+<body>
+	
+	<form method="POST" action="ajoutercheval.php">
+		<table>
+			<caption> Ajouter Cheval</caption>
+
+					<tr>
+							<td>Nom Cheval</td>
+							<td><input type="text" name="nom"></td>
+					</tr>
+
+					<tr>
+							<td>Age Cheval</td>
+							<td><input type="number" name="age"></td>
+					</tr>
+
+					<tr>
+							<td>type Cheval</td>
+							<td><input type="text" name="type"></td>
+					</tr>
+					<tr>
+							<td>Image</td>
+							<td><input type="file" name="image"></td>
+					</tr>
+					<tr>
+							<td>Sexe Cheval</td>
+							<td><input type="radio" value="male" name="sexe">male</td>
+							<td><input type="radio"  value="femelle"name="sexe">femelle</td>
+					</tr>
+	
+					<tr>
+							<td></td>
+							<td><input type="submit" name="ajouter" value="ajouter"></td>
+					</tr>
+					<tr>
+							<td></td>
+							<td><a href="affichercheval.php"> afficher les chevaux</a></td>
+					</tr>
+
+
+
+		</table>
+	</form>
+</body>
+
+
+</html>
